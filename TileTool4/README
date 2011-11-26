@@ -1,0 +1,43 @@
+OpenTTD 32bpp Tile Tool
+Made by Luca Spiller 2005
+For more info on OpenTTD see http://www.openttd.org/
+====================================================
+  
+1) Introduction
+
+This is a free tool (released under the GNU General Public License) to help out the graphics people by providing them with an interface to test out their new tiles.
+
+For more information and a tutorial see the wiki page:
+http://wiki.openttd.org/index.php/Tile_Test_Tool
+
+2) Running
+
+Make sure you have the data/ directory, if not obtain it from a source package, or SVN, then run the executable - see the wiki page for more information.
+
+3) Compiling
+
+On Unix like systems (including Mac OS X) you should just be able to run the "make" command, and everything will work perfectly. If not double check the have the required dependancies, and file a bug report / fix.
+
+On Windows:
+- if under Cygwin, just use "make".
+- Dev c++ use "tile.dev", which will automatically create a Makefile.
+- Visual Studio / Visual C++ use "tile.sln" and "tile.vcproj" (Note: the paths to resource files may need changing)
+
+Anything else, good luck!
+
+4) Depedancies
+
+SDL, SDL Image, a C++ compiler, and header files, something else.
+
+5) Redistrubuting
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+See COPYING for a full copy of the GNU General Public License.
+
+6) Thanks to:
+	Bjarni - Makefile fixes, and Mac port
+	Darkvater - Various fixes
+	Peter1138 - SVN hosting (svn://svn.bucks.net/projects/tiletool/) , and free beer

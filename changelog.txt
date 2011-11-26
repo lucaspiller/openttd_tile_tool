@@ -1,0 +1,43 @@
+------------------------------------------------------------------------
+r9 | luca | 2005-10-28 20:35:11 +0100 (Fri, 28 Oct 2005) | 2 lines
+
+- Fix compiling on anything other than Dev C++ and OSX (Dev C++ now produces its own Makefile)
+- Add a README file
+------------------------------------------------------------------------
+r8 | luca | 2005-10-28 19:54:21 +0100 (Fri, 28 Oct 2005) | 1 line
+
+Add error.[cpp|h] to tile.vcproj
+------------------------------------------------------------------------
+r7 | luca | 2005-10-28 19:48:10 +0100 (Fri, 28 Oct 2005) | 2 lines
+
+- Feature: Dynamically allocated tiles, and the ability to change grid size
+- Feature: Ability to take screenshots with 'P' key
+------------------------------------------------------------------------
+r6 | luca | 2005-10-28 14:18:45 +0100 (Fri, 28 Oct 2005) | 1 line
+
+Fix height level offsets
+------------------------------------------------------------------------
+r5 | luca | 2005-10-27 00:30:02 +0100 (Thu, 27 Oct 2005) | 5 lines
+
+- Attempt to fix compiling on Dev C++ under Windows
+I have had to add a rather ugly hack, as Dev C++ is rather evil, but it seems to work (for me at least :D)
+You may want to run strip on the binary that is outputted, and don't forget you need the following DLLs:
+jpeg.dll, libpng13.dll, SDL.dll, SDL_image.dll, zlib1.dll
+- Added Dev C++ project file
+------------------------------------------------------------------------
+r4 | luca | 2005-10-26 23:08:48 +0100 (Wed, 26 Oct 2005) | 1 line
+
+Set some style thingy to fix something or other (blame Tron if it breaks)
+------------------------------------------------------------------------
+r3 | luca | 2005-10-26 23:07:20 +0100 (Wed, 26 Oct 2005) | 1 line
+
+-Multi keypress prevention is back\n-Tidy up and simplify code\n-Make it nice (i.e. close open files when an error occurs, check an IMG_Load succedded)\n-New error handler thingy ma bob (error.[cpp|h])\n-Add -lstdc++ to fix compiling on some systems
+------------------------------------------------------------------------
+r2 | bjarni | 2005-10-26 20:54:36 +0100 (Wed, 26 Oct 2005) | 1 line
+
+fixed compiling on OSX
+------------------------------------------------------------------------
+r1 | bjarni | 2005-10-26 20:28:06 +0100 (Wed, 26 Oct 2005) | 1 line
+
+haha, I got to be first on this server
+------------------------------------------------------------------------
